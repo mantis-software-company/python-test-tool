@@ -1,0 +1,7 @@
+setup.py
+CreateString/CreateString.py
+CreateString/__init__.py
+CreateString.egg-info/PKG-INFO
+CreateString.egg-info/SOURCES.txt
+CreateString.egg-info/dependency_links.txt
+CreateString.egg-info/top_level.txt
