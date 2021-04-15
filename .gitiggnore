@@ -1,5 +1,6 @@
 **/venv/
-CreateString.egg-info/
-build/
-dist/
-venv/
+**/CreateString.egg-info/
+**/build/
+**/dist/
+**/venv/
+**/.idea/
