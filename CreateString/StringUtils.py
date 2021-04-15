@@ -56,3 +56,4 @@ class StringUtils:
             for code_point in range(current_range[0], current_range[1] + 1)
         ]
         return ''.join(random.choice(alphabet) for i in range(length))
+
