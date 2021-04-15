@@ -7,5 +7,4 @@ setup(
     author_email="deryapelindenizzz@gmail.com",
     description="test utility",
     license="Apache Software License 2.0",
-    keywords="mantis-python-test"
 )
