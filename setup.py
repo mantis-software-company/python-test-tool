@@ -6,7 +6,6 @@ setup(
     author='Derya Pelin Deniz',
     author_email='deryapelindenizzz@gmail.com',
     packages=['mantis_python_test_tool'],
-    install_requires=['nexus_uploader'],
     url='http://fmarslan.com',
     keywords='mantis-python-test-tool'
 )
