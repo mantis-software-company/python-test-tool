@@ -57,4 +57,11 @@ class StringUtils:
         ]
         return ''.join(random.choice(alphabet) for i in range(length))
 
+    def get_random_sentence_unicode(self, length):
+        sentence = ""
+        while length > 0:
+            randNumber = randrange(10)
+            sentence = sentence + self.get_random_unicode(randNumber) + " "
+            length = length - 1
+        return sentence
 
