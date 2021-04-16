@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
     name='mantisTest',
-    packages='StringUtils',
+    packages='mantis-python-test-tool',
     version='1.0.0',
     author='Derya Pelin Deniz',
     author_email="deryapelindenizzz@gmail.com",
