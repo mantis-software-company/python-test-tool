@@ -1,7 +1,7 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 setup(
     name='mantisTest',
-    packages=find_packages(include=['CreateString']),
+    packages='StringUtils',
     version='1.0.0',
     author='Derya Pelin Deniz',
     author_email="deryapelindenizzz@gmail.com",
