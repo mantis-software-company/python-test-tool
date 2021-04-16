@@ -6,29 +6,29 @@ from random import randrange
 
 class StringUtils:
 
-    def get_random_string(length):
+    def get_random_string(self, length):
         i = 0
         result_str = ''.join(
             random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for i in range(length))
         return result_str
 
-    def get_random_sentence(length):
+    def get_random_sentence(self, length):
         sentence = ""
         while length > 0:
             randNumber = randrange(10)
-            sentence = sentence + get_random_string(randNumber) + " "
+            sentence = sentence + self.get_random_string(randNumber) + " "
             length = length - 1
         return sentence
 
-    def get_fivech_sentence(length):
+    def get_fivech_sentence(self, length):
         sentence = ""
-        randString = get_random_string(5)
+        randString = self.get_random_string(5)
         while length > 0:
-            sentence = sentence + get_random_string(5) + " "
+            sentence = sentence + self.get_random_string(5) + " "
             length = length - 1
         return sentence
 
-    def get_random_unicode(length):
+    def get_random_unicode(self, length):
         try:
             get_char = unichr
         except NameError:
