@@ -1,3 +1,3 @@
 # python-test-tool
 
-https://pypi.org/project/mantis-python-test-tool/#history
+https://pypi.org/project/mantis-python-test-tool
